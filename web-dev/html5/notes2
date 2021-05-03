@@ -80,3 +80,8 @@ going to make a new html file at this point
 In vim to remove any line you may have copied over by accident use the 
 regex string:
 :%s *\d*  //
+
+
+Wow I spent way too much time on the regex 
+
+
