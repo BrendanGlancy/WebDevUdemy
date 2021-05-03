@@ -1,0 +1,82 @@
+Were starting with an index.html file 
+
+he creates 2 folder which i already have created 
+
+He names the file HelloWorld.html
+
+He launches his html page through the finder, I will try to launch it 
+through the command line, have to make an edit of my bash_profile 
+
+alias chrome="open -a \"Google Chrome\"
+
+HTML = hyper text markup language
+example.com
+
+we want to look at the html that makes this page
+
+document has starting and closing <html> tags
+has some head tags
+body tags 
+divs and h1 tags
+
+has a little bit of css but i dont think were going to be looking at that
+yet
+
+<a href> link tag
+
+the h1 tag is a header so it makes it large and bold
+
+p is a paragraph tag
+
+title tags appear on browswer tags charset is utf-8
+
+three meta tags one says utf-8 
+one sets the width
+
+style type = text/css
+
+the css makes the backgroud grey 
+has margin and padding 
+
+@media tag for the mobile users 
+
+tags that divide up sections of our code so we can have our web document page
+
+were going to start with some html tags, 
+
+Now were onto header tags oh me oh my
+
+there are 6 h tags
+
+now <p>
+
+br is a line break and has no closing tag
+<b> makes things bold
+
+<em> is italic
+<ins> underline
+<sup> is superscript
+<del> deleted has a line through the text
+<hr> is a line going across the page
+
+list in html:
+ul is unordered list
+ol is ordered list
+
+if you don't know whose in my image are you really a real coder??
+
+DPR
+
+Forms in html
+
+<form>
+
+Forms are easy to use and can transfer data between hyper text pages
+The are all kinds of things like type value and placeholder attributes
+
+Tables in html:
+going to make a new html file at this point
+
+In vim to remove any line you may have copied over by accident use the 
+regex string:
+:%s *\d*  //
