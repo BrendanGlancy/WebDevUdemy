@@ -10,28 +10,16 @@
         <!-- This is the traditonal place to put Internal CSS -->
 
         <style type="text/css">
-
-            /* The css below is a class selector, it will select every thing 
-             with a class of red                                        */
-
-            /* You can apply multiple class to each html element */
-
-            .red {
+            
+            p {
                 color: red;
-            }
-
-            .large {
                 font-size: 200%;
             }
-
-            #green {
-                color: green;
+            
+            h1 {
+                color: pink;
+                /* Comments in internal css look like this */
             }
-
-            .underlined {
-                text-decoration: underline;
-            }
-
 
             /* What if you have a paragraph that you want to look different from 
              the others?? 
@@ -44,14 +32,8 @@
 
     <body>
 
-        <p class="red">The quick brown fox jumps over the lazy dog.</p>
-
-        <p id="green">This is text with the ID green.</p>
-
-        <p>I am going to use span in the element,<span class="underlined"> starting here.</span>
-        I ended it after the period</p>
-
-        <h1 class="large">This is an h1 tag</h1>
+        <p>The quick brown fox jumps over the lazy dog.</p>
+        <h1>This is an h1 tag</h1>
 
         <!-- the font-size is relative to the sizes of p tags -->
 

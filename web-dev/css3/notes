@@ -33,3 +33,22 @@ standard practice
  Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority
 
 /* this is how you comment in internal css */
+
+putting a dot in front of your css is a class selector
+
+NTS: if I am going to make a new page for every lesson I need to end it 
+with .html
+or it will just display as a page and the hyper text will not be marked up
+
+When working with IDs you use a # in front of the id name
+
+for example:
+    #green {
+        color: green;
+        }
+
+classes and ID have different uses, you should only use an ID once
+While classes can be called more than once
+
+Instead of using strong or em tags, you can use a span tag and style it with
+css
