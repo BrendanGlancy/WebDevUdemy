@@ -52,3 +52,22 @@ While classes can be called more than once
 
 Instead of using strong or em tags, you can use a span tag and style it with
 css
+
+DIVS:
+
+Its easy to put divs around sections of html and then style them 
+
+You can give a div an ID or a class, or you can apply the style to the
+div itself
+
+You can use hex code to style you websites, and get much better colors 
+thats where vim can be not as good as some other text editiors
+
+COLORS:
+
+It seems like rob is going to talk about html color codes
+
+HTML color codes.info seems like a good place to get the exact color you 
+want for web dev stuff quickly
+
+God front end stuff is fun
