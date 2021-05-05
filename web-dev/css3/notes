@@ -4,3 +4,32 @@ At the end of the section we will make a clone of the bbc
 
 Will take more notes if I see fit
 
+
+There a 3 ways to add css to a webpage, the first I am learning about
+in this course is inline css
+
+Inline css is like it sounds, it goes in the line with the html
+usually starts in this format, <tag style="what you want in quotes">
+
+
+Something weird, say you have an h1 tag that is half the size,
+if you said style="font-size:50%" it would make the h1 tag
+    1/4 the size it normally is
+
+That is because when you say font-size: percent, the percent is relative
+to a <p> tag
+
+^ I am thinking this may be on the css exam at the end of the unit
+
+There are some problems with inline css:
+     it's hard to read
+     all the inline stuff is specific to a p tag
+
+     Only should be used for very specific stuff
+
+Internal CSS, put a style tag in the head, can be anywhere but this is 
+standard practice
+
+ Inline CSS has the highest priority, then comes Internal/Embedded followed by External CSS which has the least priority
+
+/* this is how you comment in internal css */
