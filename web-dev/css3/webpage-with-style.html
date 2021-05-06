@@ -32,9 +32,25 @@
             }
 
             #first-section {
-                color: blue;
-                background-color: pink;
+                color: #9083A4;
+                background-color: #16101B;
+                width: 30%;
+                float: right;
             }
+
+            #second-section {
+                background-color: #A3EFF2;
+                width: 30%;
+                color: #000000;
+                float: left;
+
+            }
+
+            .clear-float {
+                clear: both;
+            }
+
+
 
 
             /* What if you have a paragraph that you want to look different from 
@@ -49,9 +65,9 @@
     <body>
         <div id="first-section">
 
-            <p class="red">The quick brown fox jumps over the lazy dog.</p>
+            <p>The quick brown fox jumps over the lazy dog.</p>
 
-            <p id="green">This is text with the ID green.</p>
+            <p>This is text with the ID green.</p>
 
         </div>
 
@@ -62,7 +78,14 @@
 
             <h1 class="large">This is an h1 tag</h1>
 
+            <p>I made this div 75% as oppose to the first which is 100%</p>
+
             <!-- the font-size is relative to the sizes of p tags -->
+        </div>
+
+        <div class="clear-float">
+
+            <h2>I want this to appear below my two floated elements</h2>
         </div>
 
             
