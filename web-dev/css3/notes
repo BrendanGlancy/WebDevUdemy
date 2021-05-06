@@ -93,3 +93,14 @@ the element is positioned related to the browser window
 the element will move as you scroll on the page
 
 You would probably use a fixed position for a menu at the top of your page
+
+
+
+
+MARGIN:
+Starts at the top goes around the box clockwise
+
+you can use margin-bottom margin-left margin-right or margin-top
+
+PADDING:
+
