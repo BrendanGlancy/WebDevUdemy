@@ -77,3 +77,19 @@ FLOATING:
 Position with css using floats
 
 Float: left | right | center move div sections accordingly
+
+Positioning 
+postion:relative 
+z-index is the precident of which element is displayed in the front
+
+opacity is how see through an element is 
+0 is invisible 1 is completly solid, so you have to be in between those
+number in general when you're developing
+
+position absolute means that the element is positioned absolute to its
+parent element
+
+the element is positioned related to the browser window
+the element will move as you scroll on the page
+
+You would probably use a fixed position for a menu at the top of your page
