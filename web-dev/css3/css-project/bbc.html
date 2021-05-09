@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta name="description" content="Webpage description goes here" />
+  <meta charset="utf-8">
+  <title>BBC Clone</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300&display=swap" rel="stylesheet"> 
+
+    <style>
+        h1 {
+            padding: 0;
+            margin: 0;
+            color: white;
+            font-size: 40px;
+            font-weight: normal;
+            padding-top: 10px;
+        }      
+
+        h2 {
+            
+            font-weight: normal;
+            margin-top: 8px;
+            font-size: 20px;
+            border-bottom: 4px #BB191A solid;
+            width: 45px;
+        }
+
+        #topbar {
+            /* styling for the top menu bar */
+            width: 1200px;
+            margin: 0 auto;
+            height: 40px;
+
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+        }
+
+        #logo {
+            margin-top: 8px;
+            width: 100px;
+            float: left;
+            margin-right: 8px;
+
+        }
+
+        .topbar-section {
+            float: left;
+            border-left: 1px #CCCCCC solid;
+            height: 100%;
+        }
+
+        #signin-image {
+            
+            width: 25px;
+            margin: 0px 15px;
+            float: left;
+        }
+
+        #signin-text {
+            
+            font-weight: bold;
+            font-size: 100%;
+            position: relative;
+            top: 0px;
+            padding-right: 42px;
+
+        }
+
+        .topbar-menu {
+            
+            font-weight: bold;
+            font-size: 90%;
+            padding: 13px 15px 0px 15px;
+            height: 27px;
+        }
+
+        #search-bar {
+            
+            background-color: #E4E4E4;
+            border: none;
+            
+        }
+
+        input::placeholder {
+            color: #333333;
+            text-decoration: bold;
+
+        }
+
+        #magnifying-glass {
+            height: 11px;
+            margin-top: 3px;
+
+        }
+
+        .clear {
+            
+            clear: both;
+        }
+
+        #menu-bar-container {
+           
+            border-top: 1px #CCCCCC solid;
+            background-color: #BB191A;
+            width: 100%;
+            height: 70px;
+        }
+
+        #menu-bar {
+            
+            width: 1200px;
+            margin: 0 auto;
+
+        }
+
+        #menu-bar-2 {
+            
+            width: 1200px;
+            margin: 0 auto;
+            height: 40px;
+        }
+
+        #menu-bar-2-container {
+            
+            background-color: #BB191A;
+            width: 100%;
+
+        }
+
+        #menu-bar-2 a {
+            
+            color: white;
+            text-decoration: none;
+            margin-top: 5px;
+            padding: 0 10px;
+            border-right: 1px #BB4545 solid;
+            font-size: 80%;
+            position: relative;
+            top: 10px;
+        }
+
+        #page-container {
+            
+            width: 1200px;
+            margin: 0 auto;
+        }
+
+        h3 a {
+            color: black;
+            font-size: 30px;
+            text-decoration: none;
+        }
+
+        h3 a:hover {
+            color:#1167a8;
+        }
+
+        #article-summary {
+            
+            color: #5a5a5a;
+            width: 250px;
+            float: right;
+        }
+
+        .clock {
+            
+            height: 15px;
+            position: relative;
+            top: 2px;
+        }
+
+        .topic-link {
+            text-decoration: none;
+            color:black;
+            border-left: 1px #CCCCCC solid;
+            padding-left: 10px;
+
+        }
+
+            
+
+        article-summary a:hover {
+            
+            color: #1167a8;
+        }
+
+        .date {
+            
+            padding-right:10px;
+            color: #5a5a5a;
+        }
+
+        #article-container {
+            
+            float: left;
+            width: 800px;
+            border-right: 1px solid #CCCCCC;
+            padding-right: 20px;
+        }
+
+        main-article-image {
+            
+            width: 350px;
+        }
+
+        .article-link {
+            
+            color: black;
+            text-decoration: none;
+        }
+
+        .article-summary ul li {
+            text-decoration: bold;
+        }
+
+
+
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <header>
+        <div id="topbar">
+
+            <img src="images/bbclogo.png" id="logo">
+
+            <div class="topbar-section topbar-menu">
+                
+                    <img id="signin-image" src="images/signin-image.png">
+
+                    <span id="signin-text">Sign in</span>
+            </div>
+            <div class="topbar-section topbar-menu">
+                News
+            </div>
+            <div class="topbar-section topbar-menu">
+                Sports
+            </div>
+            <div class="topbar-section topbar-menu">
+                Reel
+            </div>
+            <div class="topbar-section topbar-menu">
+                Worklife
+            </div>
+            <div class="topbar-section topbar-menu">
+                Travel
+            </div>
+            <div class="topbar-section topbar-menu">
+                Future
+            </div>
+            <div class="topbar-section topbar-menu">
+                Culture
+            </div>
+            <div class="topbar-section topbar-menu">
+                More
+            </div>
+            <div class="topbar-section topbar-menu">
+
+                <input class="input" id="search-bar" type="text" placeholder="Search">
+                <button>
+                    <img id="magnifying-glass" src="images/magnifying-glass-icon.jpeg">
+                </button>
+
+            </div>
+        </div>
+
+        <div id="clear"></div>
+
+        <div id="menu-bar-container">
+
+            <div id="menu-bar">
+                
+                <h1>NEWS</h1>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="menu-bar-2-container">
+
+                <div id="menu-bar-2">
+
+                    <a href="https://www.bbc.com/news" target="_blank">Home</a>
+
+                    <a href="https://www.bbc.com/news/coronavirus" target="_blank">Coronavirus</a>
+
+                    <a href="https://www.bbc.com/news/video" target="_blank">Video</a>
+
+                    <a href="https://www.bbc.com/news/world" target="_blank">World</a>
+
+                    <a href="https://www.bbc.com/news/us_and_canada" target="_blank">US & Canada</a>
+
+                    <a href="https://www.bbc.com/news/UK" target="_blank">UK</a>
+
+                    <a href="https://www.bbc.com/news/business" target="_blank">Business</a>
+
+                    <a href="https://www.bbc.com/news/tech" target="_blank">Tech</a>
+
+                    <a href="https://www.bbc.com/news/science" target="_blank">Science</a>
+
+                    <a href="https://www.bbc.com/news/stories" target="_blank">Stories</a>
+
+                    <a href="https://www.bbc.com/news/entertainment_and_arts" target="_blank">Entertainment & Arts</a>
+
+                    <a href="https://www.bbc.com/news/health" target="_blank">Health</a>
+
+                    <a href="https://www.bbc.com/news/in_pictures" target="_blank">In Pictures</a>
+
+                    <a href="https://www.bbc.com/news/reality_check" target="_blank">Reality Check</a>
+
+                    <a href="https://www.bbc.com/news" target="_blank">More</a>
+
+                </div>
+
+            </div>
+
+            <div class="clear"></div>
+
+            <div id="page-container">
+
+                <div id="main-article">
+                    
+                    <h2>Tech</h2>
+
+                    <div id="article-container">
+
+                        <h3>
+                            <a href="https://www.bbc.com/news/world-us-canada-57045770" target="_blank">
+                                Elon Musk reveals he has Asperger's
+                            </a>
+                        </h3>
+
+                        <img id="main-article-image" src="images/elon.png">
+
+                        <div id="article-summary">
+                            <p>The 49-year-old Tesla CEO appeared as a guest host on the US comedy series Saturday Night Live.</p>
+
+                            <p><img class="clock" src="images/timer.png"><span class="date"> 9 May 2021</span>  
+                            <a class="topic-link" href="https://www.bbc.com/news/world/us_and_canada" target="_blank">US & Canada</a></p>
+
+                        <ul>
+                            <li><a target="_blank" class="article-link" href="https://www.bbc.com/news/blogs-ouch-28746359">
+                                    Lesser-known things about Asperger's syndrome</a></li>
+                            <li><a target="_blank"  class="article-link" href="https://www.bbc.com/news/business-55939854">
+                                    Dogecoin takes off after a tip by Elon Musk</a></li>
+
+                        </ul>
+                        </div>
+                            
+
+
+                    </div>
+
+                </div>
+                
+            </div>
+            
+        </div>
+    </header>
+  
+      
+
+
+</body>
+</html>
