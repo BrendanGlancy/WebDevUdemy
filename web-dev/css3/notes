@@ -104,3 +104,9 @@ you can use margin-bottom margin-left margin-right or margin-top
 
 PADDING:
 
+
+
+External CSS you can link to the css that is in another file
+in production, this is slower
+
+the solution is external css
